@@ -192,28 +192,7 @@ jQuery(document).ready(function() {
 
 	//twitter
 		//slide tweets
-	jQuery('.twitter').bind('loaded', function(){
-		jQuery(this).addClass('flexslider').find('ul').addClass('slides');
-	});
-	if (jQuery().jflickrfeed) {
-		jQuery('.twitter').tweet({
-			modpath: "./twitter/",
-		    count: 3,
-		    avatar_size: 48,
-		    loading_text: 'loading twitter feed...',
-		    join_text: 'auto',
-		    username: 'ThemeForest', 
-		    template: "{avatar}{time}{join}<span class=\"tweet_text\">{tweet_text}</span>"
-		});
-	}
-
 	
-	jQuery('#featuresContainer').isotope({
-	  // options
-	  itemSelector : '.block'
-	  //layoutMode : 'fitColumns'
-	});
-
 
 
 
